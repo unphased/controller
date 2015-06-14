@@ -6,10 +6,11 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
-S0x3B : U"End";
+S0x35 : U"PgUp";
 S0x3C : U"Home";
 S0x3D : U"PgDown";
 S0x3E : U"End";
 
-# implement alternate shifted behaviors for the "arrow keys" which have 
-# bad/strange form factor but work fine and are easy to find
+U["1"-"0"] : U["F1"-"F10"]
+U["-"] : U"F11"
+U["="] : U"F12"
