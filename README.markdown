@@ -7,7 +7,11 @@ The [KLL](https://github.com/kiibohd/kll) git repo is automatically cloned durin
 
 Please refer to the [KLL](https://github.com/kiibohd/kll) repo or [kiibohd.com](http://kiibohd.com) for details on the KLL (Keyboard Layout Language) Spec.
 
+This is slu's configuration for the MD2 infinity keyboard
+=========================================================
 
+I have set up the kll map that I use, so just use the build.sh in my directory 
+after symlinking `kll/layouts/slu` to `slu-infinity/layouts`.
 
 Official Keyboards
 ------------------
