@@ -1,6 +1,6 @@
 #!/bin/bash
 # Configure and build firmware for my infinity keyboard.
-# Invoke this script from the ./build subdirectory of the controller.
+# Invoke this script from a separate build directory from the controller files.
 
 # This directory, where the source files are located.
 SOURCE_DIR=$(dirname ${BASH_SOURCE[0]})
@@ -15,8 +15,8 @@ cmake                                                                   \
       -DOutputModule=pjrcUSB                                            \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
-      -DDefaultMap="slu/mybase"                              \
-      -DPartialMaps="slu/mylayer1"                                          \
+      -DDefaultMap="slu/mybase"                                         \
+      -DPartialMaps="slu/mylayer1"                                      \
       ..
 
 # Rebuild.
