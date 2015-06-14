@@ -17,6 +17,7 @@ S0x39 : U"LAlt";
 
 # map some keys down here *by default* to arrows (because windows)
 S0x3B : U"RCtrl";
+S0x35 : U"Up";
 S0x3C : U"Left";
 S0x3D : U"Down";
 S0x3E : U"Right";
