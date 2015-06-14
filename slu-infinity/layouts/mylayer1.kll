@@ -6,7 +6,15 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
+# map wasd to arrows
 'w' : U"Up";
 'a' : U"Left";
 's' : U"Down";
 'd' : U"Right";
+
+# map some keys down there to arrows too
+U"Slash" : U"Up";
+U"RGui" : U"Left";
+U"RAlt" : U"Down";
+U"RCtrl" : U"Right";
+
