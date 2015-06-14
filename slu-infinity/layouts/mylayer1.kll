@@ -13,8 +13,12 @@ Generator = "Neovim";
 'd' : U"Right";
 
 # map some keys down there to arrows too
-U"Slash" : U"Up";
-U"RGui" : U"Left";
-U"RAlt" : U"Down";
-U"RCtrl" : U"Right";
+S0x34 : U"Up";
+S0x3B : U"Left";
+S0x3C : U"Down";
+S0x3D : U"Right";
 
+# implement layer on/off dedicated keys -- this is done by switching the lock 
+# off based on the layer state. It's moderately clever
+S0x36 : None;
+S0x3E : layerLock(1);

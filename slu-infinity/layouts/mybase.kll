@@ -6,10 +6,10 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
-U"Function1" : layerShift( 1 );
-U"Function2" : U"Ctrl";
-U"Function3" : U"RCtrl";
-U"Function4" : layerShift( 1 );
+S0x36 : layerLock(1); # this is to be a LOCK ON, see other layer
+S0x37 : U"Ctrl";
+S0x3D : U"RCtrl";
+S0x3E : layerShift(1); # this serves as LOCK OFF but is also momentary
 
-U"Ctrl" : U"Capslock";
+S0x1D : U"Capslock"; # just to maintain functional consistency for now
 
