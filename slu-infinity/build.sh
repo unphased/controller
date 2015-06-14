@@ -16,7 +16,7 @@ cmake                                                                   \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
       -DDefaultMap="stdFuncMap slu/mybase"                              \
-      -DPartialMaps="slu/viKeys slu/arrowKeys"                          \
+      -DPartialMaps="mylayer1"                                          \
       ..
 
 # Rebuild.
