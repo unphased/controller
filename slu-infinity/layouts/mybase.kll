@@ -6,9 +6,9 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
-U"CTRL" : U"CAPSLOCK";
+U"Ctrl" : U"Capslock";
 U"Function1" : layerShift( 1 );
-U"Function2" : U"LCTRL";
-U"Function3" : U"RCTRL";
-U"Function4" : layerLatch( 1 );
+U"Function2" : U"LCtrl";
+U"Function3" : U"RCtrl";
+U"Function4" : layerShift( 1 );
 
