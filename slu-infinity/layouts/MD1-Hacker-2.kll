@@ -1,0 +1,33 @@
+Name = "MD1";
+Layout = "Hacker";
+Version = "0.2";
+Author = "Steven Lu (first pass config made with massdrop conf'r)";
+KLL = "0.3";
+Date = "2014-09-14";
+Generator = "KIICONF 0.1";
+
+U"1" : U"P1";
+U"2" : U"P2";
+U"3" : U"P3";
+U"4" : U"P4";
+U"5" : U"P5";
+U"6" : U"P6";
+U"7" : U"P7";
+U"8" : U"P8";
+U"9" : U"P9";
+U"0" : U"P0";
+U"MINUS" : CONS"PAUSEPLAY";
+U"EQUAL" : CONS"SCANNEXTTRACK";
+U"BACKSLASH" : CONS"VOLUMEDOWN";
+U"BACKTICK" : CONS"VOLUMEUP";
+U"U" : U"P4";
+U"I" : U"P5";
+U"O" : U"P6";
+U"J" : U"P1";
+U"K" : U"P2";
+U"L" : U"P3";
+U"ENTER" : U"PENTER";
+U"M" : U"P0";
+U"COMMA" : U"P,";
+U"PERIOD" : U"P.";
+

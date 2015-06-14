@@ -1,0 +1,16 @@
+Name = "mybase";
+Layout = "Hacker";
+Version = "0.3";
+Author = "Steven Lu (base map)";
+KLL = "0.3b";
+Date = "2015-06-15";
+Generator = "Neovim";
+
+U"CTRL" : U"CAPSLOCK";
+U"Function1" : layerShift( 1 );
+U"Function2" : U"LCTRL";
+U"RGUI" : U"RALT";
+U"RALT" : U"RCTRL";
+U"Function3" : layerShift( 2 );
+U"Function4" : layerShift( 1 );
+
