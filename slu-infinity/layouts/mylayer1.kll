@@ -6,13 +6,10 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
-# map some keys down there to arrows too
-S0x34 : U"Up";
-S0x3B : U"Left";
-S0x3C : U"Down";
-S0x3D : U"Right";
+S0x3B : U"End";
+S0x3C : U"Home";
+S0x3D : U"PgDown";
+S0x3E : U"End";
 
-# implement layer on/off dedicated keys -- this is done by switching the lock 
-# off based on the layer state. It's moderately clever
-S0x36 : None;
-S0x3E : layerLock(1) + layerShift(1);
+# implement alternate shifted behaviors for the "arrow keys" which have 
+# bad/strange form factor but work fine and are easy to find

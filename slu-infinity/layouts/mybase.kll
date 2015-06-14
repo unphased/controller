@@ -6,16 +6,17 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
-S0x36 : layerLock(1); # this is to be a LOCK ON, see other layer
+S0x36 : layerShift(1);
 S0x37 : U"Ctrl";
-S0x3D : U"RCtrl";
-S0x3E : layerShift(1); # this serves as LOCK OFF but is also momentary
 
 S0x1D : U"Capslock"; # just to maintain functional consistency for now
 
 # swap gui and alt keys so they are like normal keyboards
 S0x38 : U"LGui";
 S0x39 : U"LAlt";
-S0x3B : U"RAlt";
-S0x3C : U"RGui";
 
+# map some keys down here *by default* to arrows (because windows)
+S0x3B : U"RCtrl";
+S0x3C : U"Left";
+S0x3D : U"Down";
+S0x3E : U"Right";
