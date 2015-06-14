@@ -1,7 +1,7 @@
 Name = "mybase";
 Layout = "Hacker";
 Version = "0.3";
-Author = "Steven Lu (base map)";
+Author = "Steven Lu";
 KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
