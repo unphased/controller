@@ -15,8 +15,8 @@ cmake                                                                   \
       -DOutputModule=pjrcUSB                                            \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
-      -DDefaultMap="stdFuncMap mybase"                                  \
-      -DPartialMaps="hhkbpro2;viKeys arrowKeys"                         \
+      -DDefaultMap="stdFuncMap slu/mybase"                              \
+      -DPartialMaps="slu/viKeys slu/arrowKeys"                          \
       ..
 
 # Rebuild.
