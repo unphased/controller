@@ -15,8 +15,8 @@ cmake                                                                   \
       -DOutputModule=pjrcUSB                                            \
       -DDebugModule=full                                                \
       -DBaseMap=defaultMap                                              \
-      -DDefaultMap="stdFuncMap slu/mybase"                              \
-      -DPartialMaps="mylayer1"                                          \
+      -DDefaultMap="slu/mybase"                              \
+      -DPartialMaps="slu/mylayer1"                                          \
       ..
 
 # Rebuild.
