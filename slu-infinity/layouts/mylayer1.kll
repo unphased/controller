@@ -6,6 +6,10 @@ KLL = "0.3b";
 Date = "2015-06-15";
 Generator = "Neovim";
 
+# switch layer off if locked (this one will keep the layer on while it is 
+# depressed during the disabling (for consistency))
+S0x36 : layerLock(1) + layerShift(1);
+
 S0x35 : U"PgUp";
 S0x3C : U"Home";
 S0x3D : U"PgDown";

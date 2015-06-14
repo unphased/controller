@@ -20,3 +20,5 @@ S0x3B : U"RCtrl";
 S0x3C : U"Left";
 S0x3D : U"Down";
 S0x3E : U"Right";
+
+# make this a salute keycombo to lock the layer on
